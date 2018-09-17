@@ -56,7 +56,7 @@ with open (file) as passwrd:
 python bruteforce.py -H <springboard.com> -u <username> -F <password file>
 
 if _password = "0IvInFSWrdpI9":
-    print(You have found the password)
+    print("You have found the password")
 
 
 
