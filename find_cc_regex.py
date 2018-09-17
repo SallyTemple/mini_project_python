@@ -23,6 +23,9 @@ if __name__ == '__main__':
 file = "ccnumbers.txt"
 with open (file) as creditno:
     lines = creditno.readlines()
+    creditno.rstrip()
 
 
+python find_cc_regex.py -F <input file>
+print()
 

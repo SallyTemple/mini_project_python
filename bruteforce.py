@@ -51,7 +51,12 @@ if __name__ == '__main__':
 file = "passwords.txt"
 with open (file) as passwrd:
     lines = passwrd.readlines()
+    passwrd.rstrip()
 
+python bruteforce.py -H <springboard.com> -u <username> -F <password file>
+
+if _password = "0IvInFSWrdpI9":
+    print(You have found the password)
 
 
 
