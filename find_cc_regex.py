@@ -20,3 +20,7 @@ if __name__ == '__main__':
     '''
     #### YOUR CODE HERE #####
 file = open ("ccnumbers.txt\n")
+file = "ccnumbers.txt"
+with open (file) as creditno:
+    lines = creditno.readlines()
+
