@@ -48,4 +48,6 @@ if __name__ == '__main__':
         4) If you find the password, print a message that you've found the password, and the number of failed tries
     '''
     #### YOUR CODE HERE #####
+file = open ("passwords.txt")
+
 

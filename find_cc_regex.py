@@ -19,3 +19,4 @@ if __name__ == '__main__':
         4) Go through the file and print the total number of valid credit card numbers that you've found
     '''
     #### YOUR CODE HERE #####
+file = open ("ccnumbers.txt\n")
