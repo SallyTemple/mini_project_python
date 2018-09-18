@@ -26,6 +26,7 @@ with open (file) as creditno:
     print(line.rstrip())
 
 
-python find_cc_regex.py -F <input file>
-print()
+python find_cc_regex.py -F <ccnumbers.txt>
+
+print(valid_credit_card_numbers)
 
