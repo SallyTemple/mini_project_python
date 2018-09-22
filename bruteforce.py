@@ -49,13 +49,16 @@ if __name__ == '__main__':
     '''
     #### YOUR CODE HERE #####
 file = "passwords.txt"
+attempts = 0
 with open (file) as passwrd:
     for line in passwrd:
         print(line.rstrip())
 bruteforce.py -H <springboard.com> -u <student> -F <passwords.txt>
 
-if _password = "0IvInFSWrdpI9":
+if _password =="0IvInFSWrdpI9":
     print("You have found the password")
+    attempts += 1
+
 
 
 
