@@ -2,6 +2,7 @@ import optparse
 import re
 
 
+
 if __name__ == '__main__':
     parser = optparse.OptionParser('usage%prog -F <CC file>')
     parser.add_option('-F', dest="ccFile", type="string", help = 'Specify file with CC numbers')
@@ -21,12 +22,12 @@ if __name__ == '__main__':
     #### YOUR CODE HERE #####
 
 file = "ccnumbers.txt"
+count = 0
+cc_regex = re.compile(r"\b4[0-9]{12}(?:[0-9]{3})?\b")
 with open (file) as creditno:
-    for line in creditno
-    print(line.rstrip())
-
-
-python find_cc_regex.py -F <ccnumbers.txt>
-
-print(valid_credit_card_numbers)
-
+    for line in creditno:
+        line = line.rstrip()
+        matches = cc_regex.match(line)
+        if match:
+            count += 1
+            print(line)
